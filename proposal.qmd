@@ -45,7 +45,7 @@ Create and develop dashboards and web frameworks with R Shiny that provide inter
 
 ## The Data 
 
-The following datasets will be sourced from the **CEIC: Global Economic Data, Indicators, Charts, and Forecasts.** We will extract the following **investments, domestic trade and household survey** in Singapore: 
+The following datasets will be sourced from the [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts.**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries) We will extract the following **investments, domestic trade and household survey** in Singapore: 
 
 ### Singapore:  Domestic Trade and Household Survey 
 
