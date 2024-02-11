@@ -9,12 +9,12 @@ website:
         text: Home
       - href: proposal.qmd
         text: Proposal
-      - about.qmd
+    
       
 
 format:
   html:
-    theme: cosmo
+    theme: solar
     css: styles.css
     toc: true
 

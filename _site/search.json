@@ -1,9 +1,58 @@
 [
   {
+    "objectID": "proposal.html#motivation",
+    "href": "proposal.html#motivation",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Motivation ",
+    "text": "Motivation \nThe motivation behind our project stems from the urgent need for more immediate economic insights in the fast-paced economic environment of Singapore. The conventional approach to economic forecasting and analysis is no longer sufficient to meet the demands of a dynamic global economy, and the challenge of reducing the time lag in economic data analysis is non-trivial. It requires innovative methodologies that can accurately predict current economic conditions using incomplete or near-real-time data. This is where nowcasting comes into play, offering a promising solution by utilizing the latest available data to estimate present economic conditions. \nThe issues of data timeliness and the intricate nature of economic relationships within Singapore make this topic particularly challenging—and interesting—to solve."
+  },
+  {
+    "objectID": "proposal.html#objectives-and-approach",
+    "href": "proposal.html#objectives-and-approach",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Objectives and Approach ",
+    "text": "Objectives and Approach \nThe objective of this proposal is to leverage open government data to gain insights into the state of the economy using historical investment and domestic trade data, along with household survey information. This project aims to develop nowcasting methods tailored for investment, domestic trade, and household survey indicators, enabling timely and accurate assessments of economic conditions. \nHere is our approach on the project to achieve our objective: \n\nInstalling Packages \n\nInstalling necessary R packages that we are going to use for our projects such as tidyverse, ggrepel, patchwork, ggthemes etc. \n\nData Preparation \n\nAcquire open government datasets related to historical investment, domestic trade, and household survey results. Standardize data formats and ensure consistency across datasets. Clean the data to handle missing values, outliers, and inconsistencies. \n\n Exploratory Data Analysis (EDA) \n\nConduct exploratory data analysis to understand the characteristics and patterns within the datasets. Identify key variables that are indicative of economic trends and activity. \n\nNowcasting Implementation \n\nCreate predictive models to predict current or near-future economic state of Singapore by performing exploration on various nowcasting methods and implement them into the analysis framework. \n\nVisualization and Interpretation \n\nCreate and develop dashboards and web frameworks with R Shiny that provide interactive visualizations to communicate the findings and insights derived from the nowcasting models."
+  },
+  {
+    "objectID": "proposal.html#data",
+    "href": "proposal.html#data",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Data ",
+    "text": "Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecasts. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section."
+  },
+  {
+    "objectID": "proposal.html#methodology",
+    "href": "proposal.html#methodology",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Methodology ",
+    "text": "Methodology \nThis project will focus on 2 major aspects:  \n\nExploratory Data Analysis (EDA)\nWe are going to performed EDA toward historical data from CEIC on investments and domestic trade and household survey. These EDAs will serve the purpose to show interactively growth of economic state in Singapore in the past years. Using the raw data, users can make their own prediction and interpretation on how the current, future, or past economic states of Singapore is. \n\n\nNowcasting (Predictive modelling)\nThe second methodology that we are going to used is to create a predictive model for Singapore current or near future economic state throughout multiple aspects. We are going to build and visualize the prediction of aspects of Singapore economic states."
+  },
+  {
+    "objectID": "proposal.html#prototypestoryboard",
+    "href": "proposal.html#prototypestoryboard",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Prototype/Storyboard",
+    "text": "Prototype/Storyboard\n\nAs of our work are highly affected by time, line chart is the best visualisation technique to be used. We might be expanding the type of visualisation that can be implemented to give more options for the users. On each visualisation, we also aim to create more interactivity by implementing multiple lines for comparison, we also aim to create filters for more specific data for user to choose from. For the nowcasting, we are going to create multiple models for the users to choose, therefore comparison would also be effective for them to choose which is better."
+  },
+  {
+    "objectID": "proposal.html#scope-of-work",
+    "href": "proposal.html#scope-of-work",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Scope of Work ",
+    "text": "Scope of Work \nThe scope of work (SOW) is a document that outlines the details and expectations of a project or a particular task within a project. It defines what needs to be accomplished, the resources required, the timeline for completion, and the criteria for success.\nThis Scope of Work document serves as a blueprint for the successful implementation of the Discovering State of Economic in Singapore with Nowcasting Methods:"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "proposal.html#the-data",
+    "href": "proposal.html#the-data",
+    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "The Data ",
+    "text": "The Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecasts. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section."
   }
 ]
