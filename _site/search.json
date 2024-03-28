@@ -14,11 +14,11 @@
     "text": "Objectives and Approach \nThe objective of this proposal is to leverage open government data to gain insights into the state of the economy using historical investment and domestic trade data, along with household survey information. This project aims to develop nowcasting methods tailored for investment, domestic trade, and household survey indicators, enabling timely and accurate assessments of economic conditions. \nHere is our approach on the project to achieve our objective: \n\nInstalling Packages \n\nInstalling necessary R packages that we are going to use for our projects such as tidyverse, ggrepel, patchwork, ggthemes etc. \n\nData Preparation \n\nAcquire open government datasets related to historical investment, domestic trade, and household survey results. Standardize data formats and ensure consistency across datasets. Clean the data to handle missing values, outliers, and inconsistencies. \n\n Exploratory Data Analysis (EDA) \n\nConduct exploratory data analysis to understand the characteristics and patterns within the datasets. Identify key variables that are indicative of economic trends and activity. \n\nNowcasting Implementation \n\nCreate predictive models to predict current or near-future economic state of Singapore by performing exploration on various nowcasting methods and implement them into the analysis framework. \n\nVisualization and Interpretation \n\nCreate and develop dashboards and web frameworks with R Shiny that provide interactive visualizations to communicate the findings and insights derived from the nowcasting models."
   },
   {
-    "objectID": "proposal.html#data",
-    "href": "proposal.html#data",
+    "objectID": "proposal.html#the-data",
+    "href": "proposal.html#the-data",
     "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
-    "section": "Data ",
-    "text": "Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecasts. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section."
+    "section": "The Data ",
+    "text": "The Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecasts. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section."
   },
   {
     "objectID": "proposal.html#methodology",
@@ -47,12 +47,5 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "proposal.html#the-data",
-    "href": "proposal.html#the-data",
-    "title": "Our Proposal: Discovering State of Economic in Singapore with Nowcasting Methods",
-    "section": "The Data ",
-    "text": "The Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecasts. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section."
   }
 ]

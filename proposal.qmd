@@ -9,7 +9,7 @@ execute:
 editor: visual
 ---
 
-![](images/chart wp.jpg){width="800" height="400"}
+![](images/chart%20wp.jpg){width="800" height="400"}
 
 ## Motivation 
 
@@ -71,7 +71,7 @@ The second methodology that we are going to used is to create a predictive model
 
 ## Prototype/Storyboard
 
-![](images/Screenshot 2024-02-11 211555-01.png){width="400"}
+![](images/Screenshot%202024-02-11%20211555-01.png){width="400"}
 
 As of our work are highly affected by time, line chart is the best visualisation technique to be used. We might be expanding the type of visualisation that can be implemented to give more options for the users. On each visualisation, we also aim to create more interactivity by implementing multiple lines for comparison, we also aim to create filters for more specific data for user to choose from. For the nowcasting, we are going to create multiple models for the users to choose, therefore comparison would also be effective for them to choose which is better. 
 
@@ -81,4 +81,4 @@ The scope of work (SOW) is a document that outlines the details and expectations
 
 This Scope of Work document serves as a blueprint for the successful implementation of the Discovering State of Economic in Singapore with Nowcasting Methods:
 
-![](images/Screenshot 2024-02-11 211611.png)
+![](images/Screenshot%202024-02-11%20211611.png)

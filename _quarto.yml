@@ -8,8 +8,17 @@ website:
       - href: index.qmd
         text: Home
       - href: proposal.qmd
+        text: Project Overview
+      - href: proposal.qmd
+        text: User Guide
+      - href: proposal.qmd
+        text: Application
+      - href: proposal.qmd
+        text: Poster
+      - href: proposal.qmd
         text: Proposal
-    
+      - href: about.qmd
+        text: About Us
       
 
 format:
