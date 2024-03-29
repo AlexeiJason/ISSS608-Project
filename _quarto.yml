@@ -11,7 +11,7 @@ website:
         text: Project Overview
       - href: guide.qmd
         text: User Guide
-      - href: app.qmd
+      - href: "https://michael-berlian.shinyapps.io/Project/"
         text: Application
       - href: poster.qmd
         text: Poster
