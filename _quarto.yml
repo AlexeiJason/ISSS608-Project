@@ -2,28 +2,41 @@ project:
   type: website
 
 website:
-  title: "Group15"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: overview.qmd
-        text: Project Overview
-      - href: guide.qmd
-        text: User Guide
-      - href: "https://michael-berlian.shinyapps.io/Project/"
-        text: Application
-      - href: poster.qmd
-        text: Poster
-      - href: proposal.qmd
-        text: Proposal
-      - href: about.qmd
-        text: About Us
-      
+  page-navigation: true
+  title: "Visual Analytics Project"
+  description: "Discovering State of Economic in Singapore with Nowcasting Methods"
+  site-url: "https://nowcasting-economic-sg.netlify.app//"
+  
+  sidebar: 
+    background: "#282D33"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+  
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+        - href: index.qmd
+          text: Home
+        - href: overview.qmd
+          text: Project Overview
+        - href: guide.qmd
+          text: User Guide
+        - href: "https://michael-berlian.shinyapps.io/Project/"
+          text: Application
+        - href: poster.qmd
+          text: Poster
+        - href: proposal.qmd
+          text: Proposal
+        - href: about.qmd
+          text: About Us
+
 
 format:
   html:
-    theme: solar
+    theme: journal
+    smooth-scroll: true
     css: styles.css
     toc: true
 
