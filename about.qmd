@@ -1,3 +1,19 @@
 ---
 title: "About Us"
 ---
+
+![](images/giphy.gif)
+
+## Team
+
+Welcome to our corner of the internet! We're a team of dedicated individuals who are passionate about data analytics and visualitations. Here's a bit about each of us:
+
+Alexei Jason: [LinkedIn](https://www.linkedin.com/in/alexei-jason/) \| [Github](https://github.com/AlexeiJason)
+
+Chrissandro: [LinkedIn](https://www.linkedin.com/in/chrissandro26/) \| [Github](https://github.com/chrixus2603)
+
+Michael Berlian: [LinkedIn](https://www.linkedin.com/in/michaelberlian/) \| [Github](https://github.com/michaelberlian)
+
+## Special Thanks
+
+We extend our special thanks to our beloved guru and mentor, Prof. Kam Tin Seong, for his exceptional guidance and mentorship during the development of the VAA project.

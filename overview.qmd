@@ -7,7 +7,7 @@ execute:
 editor: visual
 ---
 
-![](images/Now Casting.png)
+![](images/Now%20Casting.png)
 
 ## Overview
 
@@ -21,7 +21,7 @@ The issues of data timeliness and the intricate nature of economic relationships
 
 ## The Data 
 
-The following datasets will be sourced from the [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)and **[Department of Statistics Singapore.](https://tablebuilder.singstat.gov.sg/table/TS/M015631)** We will extract the following **GDP Growth Rate, Export and Import, Retail Sales Value and Food and Beverage Sales Value** in Singapore: 
+The following datasets will be sourced from the [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)and [**Department of Statistics Singapore.**](https://tablebuilder.singstat.gov.sg/table/TS/M015631) We will extract the following **GDP Growth Rate, Export and Import, Retail Sales Value and Food and Beverage Sales Value** in Singapore: 
 
 ### Singapore: GDP Growth Rate
 
@@ -29,7 +29,7 @@ This dataset contains information on Singapore's Gross Domestic Product (GDP) gr
 
 The following is a snapshot of the GDPGrowth, which contains information about the GDP, Year on Year Growth Rate from [**Department of Statistics Singapore.**](https://tablebuilder.singstat.gov.sg/table/TS/M015631)
 
-![](images/Screenshot 2024-03-31 154525.png)
+![](images/Screenshot%202024-03-31%20154525.png)
 
 ### Singapore: Export and Import 
 
@@ -37,9 +37,9 @@ This dataset is to include data on Singapore's export and import activities. It 
 
 The following is a snapshot of the Export and Import, which contains information from [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)**.**
 
-![](images/Screenshot 2024-03-31 154454.png)
+![](images/Screenshot%202024-03-31%20154454.png)
 
-![](images/Screenshot 2024-03-31 154507.png)
+![](images/Screenshot%202024-03-31%20154507.png)
 
 ### Singapore: Retail Sales Value and Food and Beverage Sales Value
 
@@ -47,9 +47,9 @@ This dataset contains information on retail sales value, specifically focusing o
 
 The following is a snapshot of the Retail Sales Value and Food and Beverage Sales Value, which contains information from [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)**.**
 
-![](images/Screenshot 2024-03-31 154431.png)
+![](images/Screenshot%202024-03-31%20154431.png)
 
-![](images/Screenshot 2024-03-31 154411-01.png)
+![](images/Screenshot%202024-03-31%20154411-01.png)
 
 ## Approach
 

@@ -70,6 +70,26 @@
     ]
   },
   {
+    "objectID": "about.html#team",
+    "href": "about.html#team",
+    "title": "About Us",
+    "section": "Team",
+    "text": "Team\nWelcome to our corner of the internet! We’re a team of dedicated individuals who are passionate about data analytics and visualitations. Here’s a bit about each of us:\nAlexei Jason: LinkedIn | Github\nChrissandro: LinkedIn | Github\nMichael Berlian: LinkedIn | Github",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "about.html#special-thanks",
+    "href": "about.html#special-thanks",
+    "title": "About Us",
+    "section": "Special Thanks",
+    "text": "Special Thanks\nWe extend our special thanks to our beloved guru and mentor, Prof. Kam Tin Seong, for his exceptional guidance and mentorship during the development of the VAA project.",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
     "objectID": "overview.html#overview",
     "href": "overview.html#overview",
     "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
