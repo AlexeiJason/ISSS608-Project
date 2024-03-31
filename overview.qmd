@@ -80,3 +80,17 @@ The scope of work (SOW) is a document that outlines the details and expectations
 This Scope of Work document serves as a blueprint for the successful implementation of the Discovering State of Economic in Singapore with Nowcasting Methods:
 
 ![](images/Screenshot%202024-02-11%20211611.png)
+
+# External Links & References
+
+-   [Shiny Application GitHub](https://github.com/michaelberlian/ISSS608-Shiny)
+
+-   [Shiny Application](https://michael-berlian.shinyapps.io/Project/)
+
+-   [Project Website](https://nowcasting-economic-sg.netlify.app/)
+
+-   [Project Website GitHub](https://github.com/AlexeiJason/ISSS608-Project)
+
+-   [TimeTK](https://business-science.github.io/timetk/)
+
+-   [Modeltime](https://business-science.github.io/modeltime/)

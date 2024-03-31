@@ -90,6 +90,66 @@
     ]
   },
   {
+    "objectID": "guide.html#navigation",
+    "href": "guide.html#navigation",
+    "title": "User Guide",
+    "section": "Navigation",
+    "text": "Navigation\n\nThe application consist of 4 pages:\n\nHistorical\nDiagnostic\nNowcast\nAuto Nowcast",
+    "crumbs": [
+      "User Guide"
+    ]
+  },
+  {
+    "objectID": "guide.html#filter",
+    "href": "guide.html#filter",
+    "title": "User Guide",
+    "section": "Filter",
+    "text": "Filter\n\nOn all the pages, on the left there is a side panel to choose the dataset that wanted to be plotted. There are 5 dataset that could be choosen from:\n\nExport\nImport\nFnb\nRetail\nGDP\n\n\n\nFor Export, Import, and GDP when chosen, a new column to choose which region or category will appear.\nTo generate the correct plot of each page, there is a generate button at the end of the sidebar panel on every page, except Nowcast, since there are further steps needed to be done in Nowcast page.",
+    "crumbs": [
+      "User Guide"
+    ]
+  },
+  {
+    "objectID": "guide.html#historical",
+    "href": "guide.html#historical",
+    "title": "User Guide",
+    "section": "Historical",
+    "text": "Historical\nIn this page there are 2 main plot.\n\nThe Time Series Plot, this plot was used to show the historical data and the trendline for the data choosen. Under it the a slider bar is used to choose the range of plot that want to be seen.\nThe STL diagnostic. The time series is decomposed into 3 part, seasonality, trend, and remainder. In this plot we show all 3 to let you further explore and understand the dataset.",
+    "crumbs": [
+      "User Guide"
+    ]
+  },
+  {
+    "objectID": "guide.html#diagnostic",
+    "href": "guide.html#diagnostic",
+    "title": "User Guide",
+    "section": "Diagnostic",
+    "text": "Diagnostic\nDiagnostic page also consist of 2 main plot.\n\nThe Lag Diagnostic. This plot was to show correlation using ACF and PACF. Similar with the time series historical plot, a slider was given above to choose the plot range.\nSeasonal Diagnostic as the second plot is to show the seasonal pattern such as monthly, quarterly, and yearly. It consist of boxplot containing the range of each period.",
+    "crumbs": [
+      "User Guide"
+    ]
+  },
+  {
+    "objectID": "guide.html#nowcast",
+    "href": "guide.html#nowcast",
+    "title": "User Guide",
+    "section": "Nowcast",
+    "text": "Nowcast\n\nNowcast is a page to do nowcast manually by generating a model based on your input parameter. There are 3 method of modelling available here:\n\nETS\nArima\nProphet\n\nTo choose the method, there will be another panel below the page title. The first row will show a single column to pick which method to be used. Then, row(s) consist of parameter options will appear based on what method was chosen, finally after all column chosen a generate button can pressed to generate the model and plot it.\nIn this page, the user are also required to pick a dataset and confidence interval using the slider input between 0 and 1.\nThe parameters are:\n\nETS\n\n\nSeasonal Period: seasonal frequency (Number / 0 for “auto”)\nError: Error(remainder) part (auto/additive/multiplicative)\nTrend: Trend part (auto/additive/multiplicative)\nSeason: Seasonal part (auto/additive/multiplicative)\nDamping: auto/damped/none\n\n\nArima\nAll the parameter in arima need to be a number input. non seasonal inputs are following the pdq notation. seasonal inputs are following the PDQ notation.\n\n\nSeasonal Period (Number / 0 for “auto”)\nNon Seasonal AR(p)\nNon Seasonal Differences(d)\nNon Seasonal MA(q)\nSeasonal AR(P)\nSeasonal Differences(D)\nSeasonal MA(Q)\n\n\nProphet\n\n\nGrowth: to specify trend (logistic_cap/logistic_floor/linear)\nSeasonality Yearly: toggle seasonal component for year to year (auto/TRUE/FALSE)\nSeasonality Weekly: toggle seasonal component for week over week (auto/TRUE/FALSE)\nSeasonality Daily: toggle seasonal component for day to day (auto/TRUE/FALSE)\nSeason: additive/multiplication\n\nFor this nowcast page there are 3 part:\n\nThe first is a plot for validation of the chosen model. showing the overlapping 3 month (between nowcasted and actual data)for all the dataset, except GDP which use 6 month (2 Quarter) since the GPD data was quarterly while the rest are monthly.\nThe second part is a table to show all the validation metric. they are:\n\nMAE - Mean absolute error\nMAPE - Mean absolute percentage error\nMASE - Mean absolute scaled error\nSMAPE - Symmetric mean absolute percentage error\nRMSE - Root mean squared error\nRSQ - R-squared\n\nThe last part is the plot showing the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.",
+    "crumbs": [
+      "User Guide"
+    ]
+  },
+  {
+    "objectID": "guide.html#auto-nowcast",
+    "href": "guide.html#auto-nowcast",
+    "title": "User Guide",
+    "section": "Auto Nowcast",
+    "text": "Auto Nowcast\n\nThis page will create 3 models for each method. However, the difference in between the model in this page and previous nowcast page is that th parameter are filled automatically by the system to choose the best model available.\nThe input for this page is the same as historical and diagnostic page which are the dataset choice with addition of confidence interval using the slider input between 0 and 1.\nSimilar with Nowcast page this page consist of 3 part:\n\nThe first is a plot for validation of the 3 auto model. showing the overlapping 3 month (between nowcasted and actual data)for all the dataset, except GDP which use 6 month (2 Quarter) since the GPD data was quarterly while the rest are monthly.\nThe second part is a table to show all the validation metric. they are:\n\nMAE - Mean absolute error\nMAPE - Mean absolute percentage error\nMASE - Mean absolute scaled error\nSMAPE - Symmetric mean absolute percentage error\nRMSE - Root mean squared error\nRSQ - R-squared\n\nIn this table we could also see the parameter that was chosen the best for the arima model and the ets model. In the model description can be seen the first bracket of arima is pdq notation followed by PDQ and seasonal period. While for the ETS, each character represent error, trend, and seasonality respectively (m = multiplicative, n = none, a = additive).\nThe last part is the plot showing the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.",
+    "crumbs": [
+      "User Guide"
+    ]
+  },
+  {
     "objectID": "overview.html#overview",
     "href": "overview.html#overview",
     "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
