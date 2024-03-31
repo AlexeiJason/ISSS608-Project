@@ -1,12 +1,17 @@
 ---
 title: "User Guide"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+editor: visual
 ---
 
-![](images/Screenshot 2024-03-31 171136.png)
+![](images/Screenshot%202024-03-31%20171136.png)
 
 ## Navigation
 
-![](images/Screenshot 2024-03-31 171324.png){width="500"}
+![](images/Screenshot%202024-03-31%20171324.png){width="500"}
 
 The application consist of 4 pages:
 
@@ -20,7 +25,7 @@ The application consist of 4 pages:
 
 ## Filter
 
-![](images/Screenshot 2024-03-31 171404.png){width="300"}
+![](images/Screenshot%202024-03-31%20171404.png){width="300"}
 
 On all the pages, on the left there is a side panel to choose the dataset that wanted to be plotted. There are 5 dataset that could be choosen from:
 
@@ -34,9 +39,9 @@ On all the pages, on the left there is a side panel to choose the dataset that w
 
 5.  GDP
 
-![](images/Screenshot 2024-03-31 171433.png){width="300"}
+![](images/Screenshot%202024-03-31%20171433.png){width="300"}
 
-![](images/Screenshot 2024-03-31 171455.png){width="300"}
+![](images/Screenshot%202024-03-31%20171455.png){width="300"}
 
 For Export, Import, and GDP when chosen, a new column to choose which region or category will appear.
 
@@ -50,9 +55,9 @@ In this page there are 2 main plot.
 
 2.  The STL diagnostic. The time series is decomposed into 3 part, seasonality, trend, and remainder. In this plot we show all 3 to let you further explore and understand the dataset.
 
-![](images/Screenshot 2024-03-31 171907.png)
+![](images/Screenshot%202024-03-31%20171907.png)
 
-![](images/Screenshot 2024-03-31 171541.png)
+![](images/Screenshot%202024-03-31%20171541.png)
 
 ## Diagnostic
 
@@ -62,13 +67,13 @@ Diagnostic page also consist of 2 main plot.
 
 2.  Seasonal Diagnostic as the second plot is to show the seasonal pattern such as monthly, quarterly, and yearly. It consist of boxplot containing the range of each period.
 
-![](images/Screenshot 2024-03-31 171821.png)
+![](images/Screenshot%202024-03-31%20171821.png)
 
-![](images/Screenshot 2024-03-31 171833.png)
+![](images/Screenshot%202024-03-31%20171833.png)
 
 ## Nowcast
 
-![](images/Screenshot 2024-03-31 172901.png)
+![](images/Screenshot%202024-03-31%20172901.png)
 
 Nowcast is a page to do nowcast manually by generating a model based on your input parameter. There are 3 method of modelling available here:
 
@@ -146,11 +151,11 @@ For this nowcast page there are 3 part:
 
 3.  The last part is the plot showing the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.
 
-![](images/Screenshot 2024-03-31 173023.png)
+![](images/Screenshot%202024-03-31%20173023.png)
 
 ## Auto Nowcast
 
-![](images/Screenshot 2024-03-31 173157.png){width="500"}
+![](images/Screenshot%202024-03-31%20173157.png){width="500"}
 
 This page will create 3 models for each method. However, the difference in between the model in this page and previous nowcast page is that th parameter are filled automatically by the system to choose the best model available.
 
@@ -178,4 +183,4 @@ Similar with Nowcast page this page consist of 3 part:
 
 3.  The last part is the plot showing the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.
 
-![](images/Screenshot 2024-03-31 173327.png)
+![](images/Screenshot%202024-03-31%20173327.png)

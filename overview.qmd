@@ -92,7 +92,7 @@ In this page there are 2 main plot.
 
 2.  The STL diagnostic. The time series is decomposed into 3 part, seasonality, trend, and remainder. In this plot we show all 3 to let you further explore and understand the dataset.
 
-![](images/Screenshot 2024-03-31 171907.png)
+![](images/Screenshot%202024-03-31%20171907.png)
 
 ![](images/clipboard-3842588808.png)
 
@@ -104,9 +104,9 @@ Diagnostic page also consist of 2 main plot.
 
 2.  Seasonal Diagnostic as the second plot is to show the seasonal pattern such as monthly, quarterly, and yearly. It consist of boxplot containing the range of each period.
 
-![](images/Screenshot 2024-03-31 171821.png)
+![](images/Screenshot%202024-03-31%20171821.png)
 
-![](images/Screenshot 2024-03-31 171833.png)
+![](images/Screenshot%202024-03-31%20171833.png)
 
 ### Nowcast
 
@@ -128,7 +128,7 @@ This page will create 3 models for each method. However, the difference in betwe
 
 This part show the nowcast plot of the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.
 
-![](images/Screenshot 2024-03-31 173327.png)
+![](images/Screenshot%202024-03-31%20173327.png)
 
 ## Conclusion
 

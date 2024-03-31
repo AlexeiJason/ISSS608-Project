@@ -1,5 +1,10 @@
 ---
 title: "About Us"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+editor: visual
 ---
 
 ![](images/giphy.gif)
