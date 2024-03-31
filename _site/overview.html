@@ -175,6 +175,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#r-shiny-application" id="toc-r-shiny-application" class="nav-link" data-scroll-target="#r-shiny-application">R Shiny Application</a></li>
   </ul></li>
   <li><a href="#limitation" id="toc-limitation" class="nav-link" data-scroll-target="#limitation">Limitation</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#historical" id="toc-historical" class="nav-link" data-scroll-target="#historical">Historical</a></li>
+  <li><a href="#diagnostic" id="toc-diagnostic" class="nav-link" data-scroll-target="#diagnostic">Diagnostic</a></li>
+  <li><a href="#nowcast" id="toc-nowcast" class="nav-link" data-scroll-target="#nowcast">Nowcast</a></li>
+  <li><a href="#auto-nowcast" id="toc-auto-nowcast" class="nav-link" data-scroll-target="#auto-nowcast">Auto Nowcast</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#timeline-and-work-allocation" id="toc-timeline-and-work-allocation" class="nav-link" data-scroll-target="#timeline-and-work-allocation">Timeline and Work Allocation</a></li>
   <li><a href="#external-links-references" id="toc-external-links-references" class="nav-link" data-scroll-target="#external-links-references">External Links &amp; References</a></li>
   </ul>
@@ -261,6 +269,54 @@ ul.task-list li input[type="checkbox"] {
 <li>Limitation in creating an interactive nowcasting timeseries plot since the timetk plot currently doesnt support modeltime nowcast results in interactive form</li>
 <li>The application currently does not support inputing the latest data, this could be a good feature which would allow user to do nowcasting in the future using the current app</li>
 </ul>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Here is the snapshot of our overall <a href="https://michael-berlian.shinyapps.io/Project/">R Shinny Application</a></p>
+<p><img src="images/clipboard-4288589205.png" class="img-fluid"></p>
+<section id="historical" class="level3">
+<h3 class="anchored" data-anchor-id="historical">Historical</h3>
+<p>In this page there are 2 main plot.</p>
+<ol type="1">
+<li><p>The Time Series Plot, this plot was used to show the historical data and the trendline for the data choosen. Under it the a slider bar is used to choose the range of plot that want to be seen.</p></li>
+<li><p>The STL diagnostic. The time series is decomposed into 3 part, seasonality, trend, and remainder. In this plot we show all 3 to let you further explore and understand the dataset.</p></li>
+</ol>
+<p><img src="images/Screenshot 2024-03-31 171907.png" class="img-fluid"></p>
+<p><img src="images/clipboard-3842588808.png" class="img-fluid"></p>
+</section>
+<section id="diagnostic" class="level3">
+<h3 class="anchored" data-anchor-id="diagnostic">Diagnostic</h3>
+<p>Diagnostic page also consist of 2 main plot.</p>
+<ol type="1">
+<li><p>The Lag Diagnostic. This plot was to show correlation using ACF and PACF. Similar with the time series historical plot, a slider was given above to choose the plot range.</p></li>
+<li><p>Seasonal Diagnostic as the second plot is to show the seasonal pattern such as monthly, quarterly, and yearly. It consist of boxplot containing the range of each period.</p></li>
+</ol>
+<p><img src="images/Screenshot 2024-03-31 171821.png" class="img-fluid"></p>
+<p><img src="images/Screenshot 2024-03-31 171833.png" class="img-fluid"></p>
+</section>
+<section id="nowcast" class="level3">
+<h3 class="anchored" data-anchor-id="nowcast">Nowcast</h3>
+<p>Nowcast is a page to do nowcast manually by generating a model based on your input parameter. There are 3 method of modelling available here:</p>
+<ol type="1">
+<li><p>ETS</p></li>
+<li><p>Arima</p></li>
+<li><p>Prophet</p></li>
+</ol>
+<p>This part show the nowcast plot of the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.</p>
+<p><img src="images/clipboard-2539451239.png" class="img-fluid"></p>
+</section>
+<section id="auto-nowcast" class="level3">
+<h3 class="anchored" data-anchor-id="auto-nowcast">Auto Nowcast</h3>
+<p>This page will create 3 models for each method. However, the difference in between the model in this page and previous nowcast page is that th parameter are filled automatically by the system to choose the best model available.</p>
+<p>This part show the nowcast plot of the prediction for the next 6 months for GDP dataset or 3 months for the other dataset.</p>
+<p><img src="images/Screenshot 2024-03-31 173327.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The project “Discovering the State of Economic in Singapore with Nowcasting Methods” aims to employ innovative techniques, including machine learning and time series analysis, to provide real-time insights into Singapore’s economic landscape.</p>
+<p>Through rigorous methodology, it seeks to develop a robust nowcasting model capable of accurately predicting current economic conditions. The findings hold significant value for policymakers, economists, and researchers, shedding light on trends that traditional methods may miss.</p>
+<p>Ultimately, this project contributes to advancing economic research and policymaking by showcasing the potential of nowcasting methods in understanding and navigating complex economic dynamics.</p>
 </section>
 <section id="timeline-and-work-allocation" class="level2">
 <h2 class="anchored" data-anchor-id="timeline-and-work-allocation">Timeline and Work Allocation</h2>

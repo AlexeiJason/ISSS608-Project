@@ -17,3 +17,5 @@ Michael Berlian: [LinkedIn](https://www.linkedin.com/in/michaelberlian/) \| [Git
 ## Special Thanks
 
 We extend our special thanks to our beloved guru and mentor, Prof. Kam Tin Seong, for his exceptional guidance and mentorship during the development of the VAA project.
+
+Prof. Kam Tin Seong: [LinkedIn](https://www.linkedin.com/in/tin-seong-kam-7605089/) \| [Github](https://github.com/tskam)
