@@ -190,6 +190,16 @@
     ]
   },
   {
+    "objectID": "overview.html#limitation",
+    "href": "overview.html#limitation",
+    "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Limitation",
+    "text": "Limitation\n\nLimitation in creating an interactive nowcasting timeseries plot since the timetk plot currently doesnt support modeltime nowcast results in interactive form\nThe application currently does not support inputing the latest data, this could be a good feature which would allow user to do nowcasting in the future using the current app",
+    "crumbs": [
+      "Project Overview"
+    ]
+  },
+  {
     "objectID": "overview.html#timeline-and-work-allocation",
     "href": "overview.html#timeline-and-work-allocation",
     "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",

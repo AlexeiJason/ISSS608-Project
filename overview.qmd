@@ -73,6 +73,11 @@ Develop ARIMA, ETS and Prophet models for nowcasting Singapore's economic condit
 
 This web platform offers historical and nowcasted economic data viewing and ARIMA model parameter experimentation. It features an intuitive UI, backend model integration, and interactive elements for parameter selection.
 
+## Limitation
+
+-   Limitation in creating an interactive nowcasting timeseries plot since the timetk plot currently doesnt support modeltime nowcast results in interactive form
+-   The application currently does not support inputing the latest data, this could be a good feature which would allow user to do nowcasting in the future using the current app
+
 ## Timeline and Work Allocation
 
 The scope of work (SOW) is a document that outlines the details and expectations of a project or a particular task within a project. It defines what needs to be accomplished, the resources required, the timeline for completion, and the criteria for success.
