@@ -60,23 +60,13 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Discovering State of Economic in Singapore with Nowcasting Methods",
     "section": "",
     "text": "The project “Discovering the State of Economic in Singapore with Nowcasting Methods” aims to employ innovative nowcasting techniques to provide real-time insights into the economic landscape of Singapore.\nBy leveraging high-frequency economic indicators and alternative data sources, including machine learning algorithms and time series analysis, the project endeavors to develop a nowcasting model capable of accurately predicting current economic conditions.\nThrough meticulous methodology encompassing data preprocessing, model selection, and validation, the project seeks to offer a comprehensive analysis of the Singaporean economy, identifying leading indicators and trends that traditional forecasting methods may overlook.\nThe findings and discussions arising from this research not only contribute to a deeper understanding of economic dynamics in Singapore but also provide valuable insights for policymakers, economists, and researchers, ultimately highlighting the efficacy and potential applications of nowcasting methods in economic analysis.",
     "crumbs": [
-      "{{< bi house-fill >}} Home"
+      "Home"
     ]
   },
   {
@@ -104,7 +94,27 @@
     "href": "overview.html#the-data",
     "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
     "section": "The Data ",
-    "text": "The Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecastsand Department of Statistics Singapore. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section. \nExport Import Fnb Retail GDP",
+    "text": "The Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecastsand Department of Statistics Singapore. We will extract the following GDP Growth Rate, Export and Import, Retail Sales Value and Food and Beverage Sales Value in Singapore: \n\nSingapore: GDP Growth Rate\nThis dataset contains information on Singapore’s Gross Domestic Product (GDP) growth rate over a period of time. GDP growth rate measures the percentage increase in the value of goods and services produced by the economy. It is a key indicator of economic health, reflecting the nation’s overall economic performance and indicating trends such as expansion or recession.\nThe following is a snapshot of the GDPGrowth, which contains information about the GDP, Year on Year Growth Rate from Department of Statistics Singapore.\n\n\n\nSingapore: Export and Import \nThis dataset is to include data on Singapore’s export and import activities. It could provide insights into the volume, value, and composition of goods and services exported from and imported into Singapore. Analysis of export and import data can shed light on the country’s trade dynamics, including its trade partners, major export and import sectors, and trade balances.\nThe following is a snapshot of the Export and Import, which contains information from CEIC: Global Economic Data, Indicators, Charts, and Forecasts.\n\n\n\n\nSingapore: Retail Sales Value and Food and Beverage Sales Value\nThis dataset contains information on retail sales value, specifically focusing on the retail sector as well as food and beverage sales within Singapore. It likely includes data on sales volumes, revenues, and possibly other relevant metrics. Analysis of retail sales and food and beverage sales data can offer insights into consumer spending patterns, economic trends, and the performance of specific retail segments within Singapore’s economy.\nThe following is a snapshot of the Retail Sales Value and Food and Beverage Sales Value, which contains information from CEIC: Global Economic Data, Indicators, Charts, and Forecasts.",
+    "crumbs": [
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#approach",
+    "href": "overview.html#approach",
+    "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Approach",
+    "text": "Approach\nThe dataset will be cleansed, processed, and transformed into a suitable format for visual analysis. This analysis will be performed using various R packages. The analysis will mainly focus on the following aspects:\n\nDecomposing Time Series\n\nDecomposing economic indicators into trend, seasonality, and noise reveals hidden patterns and trends, offering insights into cyclical and seasonal dynamics impacting Singapore’s economy. ACF and PACF analyses identify correlations at different time lags in time series data, aiding in selecting parameters for the ARIMA model to match the characteristics of economic indicators accurately.\n\n\nNowcasting with ARIMA, ETS, Prophet\n\nDevelop ARIMA, ETS and Prophet models for nowcasting Singapore’s economic conditions by optimizing parameters (d, p, q) through a data-driven iterative process. Aim for a model balancing complexity with predictive accuracy to capture economic dynamics and offer timely forecasts where we can make comparison for three different nowcasting methods.\n\n\nR Shiny Application\n\nThis web platform offers historical and nowcasted economic data viewing and ARIMA model parameter experimentation. It features an intuitive UI, backend model integration, and interactive elements for parameter selection.",
+    "crumbs": [
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#timeline-and-work-allocation",
+    "href": "overview.html#timeline-and-work-allocation",
+    "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Timeline and Work Allocation",
+    "text": "Timeline and Work Allocation\nThe scope of work (SOW) is a document that outlines the details and expectations of a project or a particular task within a project. It defines what needs to be accomplished, the resources required, the timeline for completion, and the criteria for success.\nThis Scope of Work document serves as a blueprint for the successful implementation of the Discovering State of Economic in Singapore with Nowcasting Methods:",
     "crumbs": [
       "Project Overview"
     ]

@@ -1,9 +1,3 @@
 ---
-title: "About"
+title: "About Us"
 ---
-
-About this site
-
-```{r}
-1 + 1
-```

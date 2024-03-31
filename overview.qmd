@@ -1,7 +1,5 @@
 ---
 title: "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods"
-author: Alexei Jason, Chrissandro, Michael Berlian
-date: "March 31, 2024"
 execute: 
   eval: true
   echo: true
@@ -23,16 +21,62 @@ The issues of data timeliness and the intricate nature of economic relationships
 
 ## The Data 
 
-The following datasets will be sourced from the [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)and **[Department of Statistics Singapore.](https://tablebuilder.singstat.gov.sg/table/TS/M015631)** We will extract the following **investments, domestic trade and household survey** in Singapore: 
+The following datasets will be sourced from the [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)and **[Department of Statistics Singapore.](https://tablebuilder.singstat.gov.sg/table/TS/M015631)** We will extract the following **GDP Growth Rate, Export and Import, Retail Sales Value and Food and Beverage Sales Value** in Singapore: 
 
-### Singapore:  Domestic Trade and Household Survey 
+### Singapore: GDP Growth Rate
 
-The section titled "Domestic Trade and Household Survey" focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. 
+This dataset contains information on Singapore's Gross Domestic Product (GDP) growth rate over a period of time. GDP growth rate measures the percentage increase in the value of goods and services produced by the economy. It is a key indicator of economic health, reflecting the nation's overall economic performance and indicating trends such as expansion or recession.
 
-The key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. 
+The following is a snapshot of the GDPGrowth, which contains information about the GDP, Year on Year Growth Rate from [**Department of Statistics Singapore.**](https://tablebuilder.singstat.gov.sg/table/TS/M015631)
 
-### Singapore: Investment 
+![](images/Screenshot 2024-03-31 154525.png)
 
-The “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section. 
+### Singapore: Export and Import 
 
-Export Import Fnb Retail GDP
+This dataset is to include data on Singapore's export and import activities. It could provide insights into the volume, value, and composition of goods and services exported from and imported into Singapore. Analysis of export and import data can shed light on the country's trade dynamics, including its trade partners, major export and import sectors, and trade balances.
+
+The following is a snapshot of the Export and Import, which contains information from [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)**.**
+
+![](images/Screenshot 2024-03-31 154454.png)
+
+![](images/Screenshot 2024-03-31 154507.png)
+
+### Singapore: Retail Sales Value and Food and Beverage Sales Value
+
+This dataset contains information on retail sales value, specifically focusing on the retail sector as well as food and beverage sales within Singapore. It likely includes data on sales volumes, revenues, and possibly other relevant metrics. Analysis of retail sales and food and beverage sales data can offer insights into consumer spending patterns, economic trends, and the performance of specific retail segments within Singapore's economy.
+
+The following is a snapshot of the Retail Sales Value and Food and Beverage Sales Value, which contains information from [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)**.**
+
+![](images/Screenshot 2024-03-31 154431.png)
+
+![](images/Screenshot 2024-03-31 154411-01.png)
+
+## Approach
+
+The dataset will be cleansed, processed, and transformed into a suitable format for visual analysis. This analysis will be performed using various R packages. The analysis will mainly focus on the following aspects:
+
+### Decomposing Time Series
+
+![](images/timetk.png){width="100"}
+
+Decomposing economic indicators into trend, seasonality, and noise reveals hidden patterns and trends, offering insights into cyclical and seasonal dynamics impacting Singapore's economy. ACF and PACF analyses identify correlations at different time lags in time series data, aiding in selecting parameters for the ARIMA model to match the characteristics of economic indicators accurately.
+
+### Nowcasting with ARIMA, ETS, Prophet
+
+![](images/modeltime.png){width="100"}
+
+Develop ARIMA, ETS and Prophet models for nowcasting Singapore's economic conditions by optimizing parameters (d, p, q) through a data-driven iterative process. Aim for a model balancing complexity with predictive accuracy to capture economic dynamics and offer timely forecasts where we can make comparison for three different nowcasting methods.
+
+### R Shiny Application
+
+![](images/rshiny.png){width="100"}
+
+This web platform offers historical and nowcasted economic data viewing and ARIMA model parameter experimentation. It features an intuitive UI, backend model integration, and interactive elements for parameter selection.
+
+## Timeline and Work Allocation
+
+The scope of work (SOW) is a document that outlines the details and expectations of a project or a particular task within a project. It defines what needs to be accomplished, the resources required, the timeline for completion, and the criteria for success.
+
+This Scope of Work document serves as a blueprint for the successful implementation of the Discovering State of Economic in Singapore with Nowcasting Methods:
+
+![](images/Screenshot%202024-02-11%20211611.png)

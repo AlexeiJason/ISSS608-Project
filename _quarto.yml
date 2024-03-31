@@ -19,7 +19,7 @@ website:
     collapse-level: 1
     contents:
         - href: index.qmd
-          text: "{{< bi house-fill >}} Home"
+          text: Home
         - href: overview.qmd
           text: Project Overview
         - href: guide.qmd
