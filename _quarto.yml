@@ -6,6 +6,7 @@ website:
   title: "Visual Analytics Project"
   description: "Discovering State of Economic in Singapore with Nowcasting Methods"
   site-url: "https://nowcasting-economic-sg.netlify.app//"
+  favicon: "images/logo.png"
   
   sidebar: 
     background: "#282D33"
