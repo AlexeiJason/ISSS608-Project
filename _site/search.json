@@ -76,7 +76,37 @@
     "section": "",
     "text": "The project “Discovering the State of Economic in Singapore with Nowcasting Methods” aims to employ innovative nowcasting techniques to provide real-time insights into the economic landscape of Singapore.\nBy leveraging high-frequency economic indicators and alternative data sources, including machine learning algorithms and time series analysis, the project endeavors to develop a nowcasting model capable of accurately predicting current economic conditions.\nThrough meticulous methodology encompassing data preprocessing, model selection, and validation, the project seeks to offer a comprehensive analysis of the Singaporean economy, identifying leading indicators and trends that traditional forecasting methods may overlook.\nThe findings and discussions arising from this research not only contribute to a deeper understanding of economic dynamics in Singapore but also provide valuable insights for policymakers, economists, and researchers, ultimately highlighting the efficacy and potential applications of nowcasting methods in economic analysis.",
     "crumbs": [
-      "Home"
+      "{{< bi house-fill >}} Home"
+    ]
+  },
+  {
+    "objectID": "overview.html#overview",
+    "href": "overview.html#overview",
+    "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Overview",
+    "text": "Overview\nIn the economic landscape of Singapore, a nation renowned for its vibrant trade, finance, and innovation sectors, the ability to accurately forecast economic conditions is not just advantageous but essential. Traditional economic forecasting methods, while useful, often fall short in today’s rapidly evolving market environments. These methods typically rely on historical data that, by the time of analysis and publication, may no longer reflect current economic realities. This latency in traditional forecasting poses significant challenges for policymakers, businesses, and investors who rely on timely data to make critical decisions.",
+    "crumbs": [
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#motivation",
+    "href": "overview.html#motivation",
+    "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "Motivation",
+    "text": "Motivation\nThe motivation behind our project stems from the urgent need for more immediate economic insights in the fast-paced economic environment of Singapore. The conventional approach to economic forecasting and analysis is no longer sufficient to meet the demands of a dynamic global economy, and the challenge of reducing the time lag in economic data analysis is non-trivial. It requires innovative methodologies that can accurately predict current economic conditions using incomplete or near-real-time data. This is where nowcasting comes into play, offering a promising solution by utilizing the latest available data to estimate present economic conditions. \nThe issues of data timeliness and the intricate nature of economic relationships within Singapore make this topic particularly challenging—and interesting—to solve.",
+    "crumbs": [
+      "Project Overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#the-data",
+    "href": "overview.html#the-data",
+    "title": "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods",
+    "section": "The Data ",
+    "text": "The Data \nThe following datasets will be sourced from the CEIC: Global Economic Data, Indicators, Charts, and Forecastsand Department of Statistics Singapore. We will extract the following investments, domestic trade and household survey in Singapore: \n\nSingapore:  Domestic Trade and Household Survey \nThe section titled “Domestic Trade and Household Survey” focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. \nThe key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. \n\n\nSingapore: Investment \nThe “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section. \nExport Import Fnb Retail GDP",
+    "crumbs": [
+      "Project Overview"
     ]
   }
 ]

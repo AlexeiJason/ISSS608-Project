@@ -2,7 +2,7 @@
 title: "Discovering State of Economic in Singapore with Nowcasting Methods"
 ---
 
-![](images/Now Casting.png){fig-align="center"}
+![](images/Nowcasting.png){width="450"}
 
 The project "Discovering the State of Economic in Singapore with Nowcasting Methods" aims to employ innovative [nowcasting](https://en.wikipedia.org/wiki/Nowcasting_(economics)) techniques to provide real-time insights into the economic landscape of Singapore.
 

@@ -8,3 +8,31 @@ execute:
   warning: false
 editor: visual
 ---
+
+![](images/Now Casting.png)
+
+## Overview
+
+In the economic landscape of Singapore, a nation renowned for its vibrant trade, finance, and innovation sectors, the ability to accurately forecast economic conditions is not just advantageous but essential. Traditional economic forecasting methods, while useful, often fall short in today's rapidly evolving market environments. These methods typically rely on historical data that, by the time of analysis and publication, may no longer reflect current economic realities. This latency in traditional forecasting poses significant challenges for policymakers, businesses, and investors who rely on timely data to make critical decisions.
+
+## Motivation
+
+The motivation behind our project stems from the urgent need for more immediate economic insights in the fast-paced economic environment of Singapore. The conventional approach to economic forecasting and analysis is no longer sufficient to meet the demands of a dynamic global economy, and the challenge of reducing the time lag in economic data analysis is non-trivial. It requires innovative methodologies that can accurately predict current economic conditions using incomplete or near-real-time data. This is where [nowcasting](https://en.wikipedia.org/wiki/Nowcasting_(economics)) comes into play, offering a promising solution by utilizing the latest available data to estimate present economic conditions. 
+
+The issues of data timeliness and the intricate nature of economic relationships within Singapore make this topic particularly challenging—and interesting—to solve.
+
+## The Data 
+
+The following datasets will be sourced from the [**CEIC: Global Economic Data, Indicators, Charts, and Forecasts**](https://insights-ceicdata-com.libproxy.smu.edu.sg/Name-your-insight/myseries)and **[Department of Statistics Singapore.](https://tablebuilder.singstat.gov.sg/table/TS/M015631)** We will extract the following **investments, domestic trade and household survey** in Singapore: 
+
+### Singapore:  Domestic Trade and Household Survey 
+
+The section titled "Domestic Trade and Household Survey" focuses on tracking various metrics related to domestic trades, particularly in the retail and wholesale sectors. Additionally, it includes indicators related to household income and expenditure. 
+
+The key component of this section is the Retail Sales Index. Alongside this, the section provides data on the Catering Sales Index and Wholesale Trade Index. 
+
+### Singapore: Investment 
+
+The “Investment” section covers indicators that monitor all sales and purchase of financial instruments or assets of a country. There is data information of Business Receipts Index and Survey of Business Expectation of Service Sectors in this section. 
+
+Export Import Fnb Retail GDP
