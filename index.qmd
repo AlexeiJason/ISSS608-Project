@@ -1,3 +1,13 @@
 ---
 title: "Discovering State of Economic in Singapore with Nowcasting Methods"
 ---
+
+![](images/Now Casting.png){fig-align="center"}
+
+The project "Discovering the State of Economic in Singapore with Nowcasting Methods" aims to employ innovative [nowcasting](https://en.wikipedia.org/wiki/Nowcasting_(economics)) techniques to provide real-time insights into the economic landscape of Singapore.
+
+By leveraging high-frequency economic indicators and alternative data sources, including machine learning algorithms and time series analysis, the project endeavors to develop a nowcasting model capable of accurately predicting current economic conditions.
+
+Through meticulous methodology encompassing data preprocessing, model selection, and validation, the project seeks to offer a comprehensive analysis of the Singaporean economy, identifying leading indicators and trends that traditional forecasting methods may overlook.
+
+The findings and discussions arising from this research not only contribute to a deeper understanding of economic dynamics in Singapore but also provide valuable insights for policymakers, economists, and researchers, ultimately highlighting the efficacy and potential applications of [nowcasting](https://en.wikipedia.org/wiki/Nowcasting_(economics)) methods in economic analysis.

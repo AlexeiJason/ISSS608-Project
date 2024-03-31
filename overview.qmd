@@ -1,0 +1,8 @@
+---
+title: "Project Overview: Discovering State of Economic in Singapore with Nowcasting Methods"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+editor: visual
+---
